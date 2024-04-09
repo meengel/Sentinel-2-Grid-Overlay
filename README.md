@@ -6,9 +6,8 @@ Please have a look at the publication for further information!
 The repository is organized as follows:
 - data
     - shapefile (download all and use shp)
-        - *sentinel-s2-l1c_ScipyVoronoiPolygons.shp* - shapefile for the grid-overlay with the names of the polygons as index
-        
-    -numpy
+        - *sentinel-s2-l1c_ScipyVoronoiPolygons.shp* - shapefile for the grid-overlay with the names of the polygons as index 
+    - numpy
         - *sentinel-s2-l1c_ScipyVoronoiPolygons.npy* - numpy array with Voronoi polygons of the grid-overlay
         - *sentinel-s2-l1c_ScipyVoronoiPolygons_Bboxes.npy* - numpy array with the bounding boxes of the Voronoi polygons of the grid-overlay
         - *sentinel-s2-l1c_TileCenters.npy* - numpy array with the centroids of the Voronoi polygons in LonLat
